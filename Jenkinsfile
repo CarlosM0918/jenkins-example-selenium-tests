@@ -3,6 +3,7 @@ pipeline {
   stages {
     stage('Verify browsers are installed') {
       steps {
+        sh 'mvn --version'
         sh 'google-chrome --version'
         sh 'firefox --version'
       }
