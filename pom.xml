@@ -62,7 +62,7 @@
   <dependency>
       <groupId>io.github.bonigarcia</groupId>
       <artifactId>webdrivermanager</artifactId>
-      <version>${wdm.version}</version>
+      <version>5.2.0</version>
       <scope>test</scope>
   </dependency>
   </dependencies>
